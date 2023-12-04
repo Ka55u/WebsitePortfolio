@@ -1,0 +1,70 @@
+.skill-card {
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .skill-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .level-beginner {
+    background-color: #fae8be;
+  }
+  
+  .level-intermediate {
+    background-color: #c9efc1;
+  }
+  
+  .level-competent {
+    background-color: #a6dfd3;
+  }
+  
+  .level-proficient {
+    background-color: #a6cfd8;
+  }
+  
+  .level-expert {
+    background-color: #a6b2d8;
+  }
+  
+  .size-beginner {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .size-intermediate {
+    width: 140px;
+    height: 140px;
+  }
+  
+  .size-competent {
+    width: 160px;
+    height: 160px;
+  }
+  
+  .size-proficient {
+    width: 180px;
+    height: 180px;
+  }
+  
+  .size-expert {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .skill-card .card-title {
+    margin-bottom: 0;
+    font-size: 18px;
+  }
+  
+  .skill-card .card-text {
+    font-size: 14px;
+  }
+  

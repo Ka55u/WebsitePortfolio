@@ -1,0 +1,33 @@
+section {
+    padding-top: 20px; /* Adds space inside the top of the section */
+  }
+
+.experience {
+    border: 1px solid #9b9b9b80; /* Light grey border */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Rounded corners */
+    background-color: #888888a6; /* Light background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .experience h2 {
+    color: #000000;     /*text color */
+    margin-bottom: 10px;
+  }
+
+  .duration {
+    color: #ffffff; /* Example color */
+    margin-bottom: 10px;
+  }
+  
+  .experience ul {
+    list-style: none; /* Remove default list style */
+    padding: 0;
+  }
+  
+  .experience li {
+    margin-bottom: 5px;
+    color: #000000; /* black text for list */
+  }
+  
