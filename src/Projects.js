@@ -2,11 +2,24 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import styles from './Projects.module.css';
 import githubLogo from './images/gh.png'; 
+import placeholderImage from './images/placeholderimage.png'; 
+
 
 const ProjectCard = ({ project }) => {
+
+  const imageUrl = project.image || placeholderImage;
   return (
     <Card className={styles['custom-card']} style={{ width: '30rem', margin: '10px' }}>
-      <Card.Img variant="top" src={project.image} />
+      <Card.Img 
+        variant="top" 
+        src={imageUrl} 
+        style={{ 
+          maxWidth: '150px', 
+          maxHeight: '150px', 
+          objectFit: 'cover',
+          margin: 'auto' 
+        }} 
+      />
       <Card.Body>
         <Card.Title>{project.name}</Card.Title>
         <Card.Text>{project.description}</Card.Text>
@@ -25,13 +38,13 @@ function Projects() {
     {
       name: 'KideScrapeBot',
       description: 'Bot made for getting tickets off the kide.app website',
-      image: 'https://via.placeholder.com/150',
+      image: '',
       link: 'https://github.com/Ka55u/KideScrapeBot',
     },
     {
-      name: 'Project 2',
-      description: 'This is a description for Project 2',
-      image: 'https://via.placeholder.com/150',
+      name: 'PortfolioWebsite',
+      description: 'The code for this website',
+      image: '',
       link: 'https://www.github.com/example2',
     },
     // More projects here
