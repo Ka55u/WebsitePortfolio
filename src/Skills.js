@@ -6,20 +6,17 @@ const SkillCard = ({ skill }) => (
   <Card className={`${styles['skill-card']} ${styles['level-' + skill.level]} ${styles['size-' + skill.level]}`}>
     <Card.Body>
       <Card.Title>{skill.name}</Card.Title>
-      <Card.Text>{skill.levelText}</Card.Text>
     </Card.Body>
   </Card>
 );
 
 function Skills() {
   const skills = [
-    { name: 'JavaScript', level: 'expert', levelText: 'Expert' },
-    { name: 'Python', level: 'expert', levelText: 'Expert' },
-    { name: 'React', level: 'proficient', levelText: 'Proficient' },
-    { name: 'CSS', level: 'proficient', levelText: 'Proficient' },
-    { name: 'Project Management', level: 'competent', levelText: 'Competent' },
-    { name: 'Communication', level: 'expert', levelText: 'Expert' },
-    { name: 'Team Leadership', level: 'proficient', levelText: 'Proficient' },
+    { name: 'JavaScript', level: '4'},
+    { name: 'Python', level: '4'},
+    { name: 'React', level: '3'},
+    { name: 'CSS', level: '3'},
+    {name: 'Java', level: '4'},
     // Add more skills here
   ];
 

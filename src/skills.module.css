@@ -14,47 +14,47 @@
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
   }
   
-  .level-beginner {
+  .level-1 {
     background-color: #fae8be;
   }
   
-  .level-intermediate {
+  .level-2 {
     background-color: #c9efc1;
   }
   
-  .level-competent {
+  .level-3 {
     background-color: #a6dfd3;
   }
   
-  .level-proficient {
+  .level-4 {
     background-color: #a6cfd8;
   }
   
-  .level-expert {
+  .level-5 {
     background-color: #a6b2d8;
   }
   
-  .size-beginner {
+  .size-1 {
     width: 120px;
     height: 120px;
   }
   
-  .size-intermediate {
+  .size-2 {
     width: 140px;
     height: 140px;
   }
   
-  .size-competent {
+  .size-3 {
     width: 160px;
     height: 160px;
   }
   
-  .size-proficient {
+  .size-4 {
     width: 180px;
     height: 180px;
   }
   
-  .size-expert {
+  .size-5 {
     width: 200px;
     height: 200px;
   }

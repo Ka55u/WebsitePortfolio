@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import styles from './Projects.module.css';
-import githubLogo from './images/gh.png'; // replace this with the path to your GitHub logo
+import githubLogo from './images/gh.png'; 
 
 const ProjectCard = ({ project }) => {
   return (
@@ -23,10 +23,10 @@ const ProjectCard = ({ project }) => {
 function Projects() {
   const projects = [
     {
-      name: 'Project 1',
-      description: 'This is a description for Project 1',
+      name: 'KideScrapeBot',
+      description: 'Bot made for getting tickets off the kide.app website',
       image: 'https://via.placeholder.com/150',
-      link: 'https://www.github.com/example1',
+      link: 'https://github.com/Ka55u/KideScrapeBot',
     },
     {
       name: 'Project 2',
@@ -37,9 +37,12 @@ function Projects() {
     // More projects here
   ];
 
+  const reversedProjects = [...projects].reverse();
+
+
   return (
     <div className={styles.Projects} style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', padding: '20px' }}>
-      {projects.map((project, index) => (
+      {reversedProjects.map((project, index) => (
         <ProjectCard key={index} project={project} />
       ))}
     </div>
