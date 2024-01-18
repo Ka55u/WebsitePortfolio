@@ -32,7 +32,7 @@ const HomePage = () => {
             </header>
 
             <main className={styles.mainContent}>
-                <p className={styles.description}>Tervetuloa sivuilleni!</p>
+                <p className={styles.description}>Tervetuloa sivulleni!</p>
                 {/* You can add more content here */}
             </main>
 
