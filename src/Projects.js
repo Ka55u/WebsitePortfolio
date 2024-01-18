@@ -37,15 +37,21 @@ function Projects() {
   const projects = [
     {
       name: 'KideScrapeBot',
-      description: 'Bot made for getting tickets off the kide.app website',
+      description: 'Kide.app sivustolta lippujen ostamiseen tehty botti',
       image: '',
       link: 'https://github.com/Ka55u/KideScrapeBot',
     },
     {
       name: 'PortfolioWebsite',
-      description: 'The code for this website',
+      description: 'Tämän nettisivun tiedostot',
       image: '',
       link: 'https://www.github.com/example2',
+    },
+    {
+      name: 'Whispers-two',
+      description: 'Ryhmässä tehty harjoitustyö. Ohjelma iteraatioiden välinen rikkinäinen puhelin.',
+      image: '',
+      link: 'https://gitlab.utu.fi/dfte/dtek0095_2023/hajoharjotus/whispers-two',
     },
     // More projects here
   ];

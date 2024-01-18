@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import styles from './About.module.css';
 
 const About = () => {
@@ -9,17 +9,17 @@ const About = () => {
             <div className={styles['about-card']}>
                 <h2>Henkilökohtaiset tiedot</h2>
                 <p>Olen kolmannen vuoden korkeakouluopiskelija Turun Yliopistosta.
-                    Olen täsmällinen työssäni ja tulen hyvin ihmisten kanssa toimeen.
+                    Olen täsmällinen ja tulen hyvin ihmisten kanssa toimeen.
                     Olen asenteeltani yleispositiivinen ja selviän hyvin ongelmatilanteista.
                 </p>
             </div>
             <div className={styles['about-card']}>
                 <h2>Opinnot</h2>
-                <p>Information about your education.</p>
+                <p>Opiskelen pääaineena tietotekniikkaa ja sivuaineena liiketoimintaa.</p>
             </div>
             <div className={styles['about-card']}>
                 <h2>Harrastukset</h2>
-                <p>Information about your hobbies.</p>
+                <p>Vapaa-ajallani pelaan videopelejä, käyn kuntosalilla sekä ohjelmoin.</p>
             </div>
         </div>
     );

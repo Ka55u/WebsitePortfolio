@@ -39,11 +39,15 @@ const Contact = () => {
                 </div>
                 <div className={styles.contactItem}>
                     <i className="fab fa-github"></i>
-                    <a href="https://github.com/Ka55u" target="_blank" rel="noreferrer">https://github.com/Ka55u</a>
+                    <a href="https://github.com/Ka55u" target="_blank" rel="noreferrer">Github</a>
+                </div>
+                <div className={styles.contactItem}>
+                    <i className="fab fa-github"></i>
+                    <a href="https://gitlab.utu.fi/kujuut" target="_blank" rel="noreferrer">Gitlab</a>
                 </div>
                 <div className={styles.contactItem}>
                     <i className="fab fa-linkedin"></i>
-                    <a href="https://www.linkedin.com/in/kasperi-juutinen/" target="_blank" rel="noreferrer">https://www.linkedin.com/in/kasperi-juutinen/</a>
+                    <a href="https://www.linkedin.com/in/kasperi-juutinen/" target="_blank" rel="noreferrer">LinkedIn</a>
                 </div>
             </div>
             <h2>Tai lähetä viestiä</h2>
