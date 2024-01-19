@@ -30,12 +30,8 @@ const Contact = () => {
             <h1>Yhteystiedot</h1>
             <div className={styles.contactInfo}>
                 <div className={styles.contactItem}>
-                    <i className="fas fa-phone-alt"></i>
-                    <a href="tel:+358440559511">+358440559511</a>
-                </div>
-                <div className={styles.contactItem}>
                     <i className="fas fa-envelope"></i>
-                    <a href="mailto:kasperi.juutinen@gmail.com">kasperi.juutinen@gmail.com</a>
+                    <a href="mailto:kasperijwork@gmail.com">kasperijwork@gmail.com</a>
                 </div>
                 <div className={styles.contactItem}>
                     <i className="fab fa-github"></i>

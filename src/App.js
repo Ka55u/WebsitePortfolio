@@ -2,7 +2,7 @@
   import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
   import Navbar from './components/Navbar';
   import Home from './Home';
-  import About from './About'; // Don't forget to create these components
+  import About from './About'; 
   import Skills from './Skills';
   import Projects from './Projects';
   import Experience from './Experience';

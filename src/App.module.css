@@ -4,13 +4,17 @@
 }
 
 body {
+    margin: 0;
+    overflow-x: hidden;
     background-image: url('./images/home_bg.jpg');
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin: 0;
-    backdrop-filter: blur(15px);
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
 }
+
 
 nav ul {
     list-style-type: none;
