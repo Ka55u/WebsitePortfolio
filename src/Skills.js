@@ -17,6 +17,11 @@ function Skills() {
     { name: 'React', level: '3'},
     { name: 'CSS', level: '3'},
     {name: 'Java', level: '4'},
+    {name: 'node', level: '3'},
+    {name: 'SQL', level: '2'},
+    {name: 'C++', level: '1'},
+    {name: 'HTML5', level: '3'},
+
     // Add more skills here
   ];
 
